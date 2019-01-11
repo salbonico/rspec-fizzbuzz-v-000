@@ -2,8 +2,13 @@
 # See README.md for instructions on how to do this
 def fizzbuzz
 
-if 5 == 5
-  puts "hi"
-end
+  if input % 15 == 0
+    puts "Fizzbuzz"
+  elsif input % 3 == 0
+    puts "Fizz"
+  elsif input % 5 == 0
+    puts "Buzz"
+  else return nill
+  end
 
 end
