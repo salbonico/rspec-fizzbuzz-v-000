@@ -3,7 +3,7 @@
 def fizzbuzz(input)
 
   if input % 15 == 0
-    "Fizzbuzz"
+    "FizzBuzz"
   elsif input % 3 == 0
     "Fizz"
   elsif input % 5 == 0
