@@ -3,10 +3,10 @@
 def fizzbuzz(input)
 
 if input % 15 == 0
-  "Fizzbuzz"
+  puts "Fizzbuzz"
 elsif input % 3 == 0
-  "Fizz"
+  puts "Fizz"
 elsif input % 5 == 0
-  "Buzz"
+  puts "Buzz"
 
 end
